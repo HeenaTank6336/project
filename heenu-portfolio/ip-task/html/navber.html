@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+    <nav>
+        <img src="logo-img-removebg-preview.png" alt="">
+
+        <ul class="icon">
+            <li><a href="">Home</a></li>
+            <li><a href="">Agency</a></li>
+            <li><a href="">Teams</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Showcase</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li><button>Book a consultation</button></li>
+        </ul>
+        <div class="icon-menu" class="trig" onclick="classToggle()">
+            <div class="menu-1"></div>
+            <div class="menu-2"></div>
+            <div class="menu-3"></div>
+        </div>
+    </nav>
+    <script>
+        function classToggle(){
+            var navs=document.querySelectorAll('.icon');
+            var fuel=document.querySelectorAll('.trig');
+            navs.forEach(nav=>nav.classList.toggle(fuel));
+        }
+        
+    </script>
+</body>
+</html>

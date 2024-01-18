@@ -1,0 +1,169 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.card1{
+    height:500px;
+    width:24%;
+    /* border: 2px solid black; */
+}
+.card1 .like1{
+   height:420px;
+   border: 1px solid;
+   border-radius: 16px;
+   box-shadow: 0px 0px 10px black;
+}
+.card1 .img{
+    height:270px;
+    width:100%;
+    background:url(../yoga-2.jpg);
+    background-size: 100% 100%;
+    border-radius: 16px;
+    padding: 10px 10px 0 10px;
+}
+.card1 .img .per{
+    height: 25px;
+    width: 35px;
+    background: red;
+    font-size: 13px;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px 0 0 2px;
+    float:left;
+}
+.card1 .img .per-1{
+    height:30px;
+    width: 30px;
+    background: white;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+.card1 .text{
+    height: 150px;
+    width: 100%;
+    border-radius: 16px;
+}
+.card1 .text .d1{
+    height: 50px;
+    padding: 10px 10px 0 10px;
+    
+} 
+.card1 .text .d1 p{
+    float: left;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.card1 .text .d1 span{
+   float: right;
+}
+.card1 .text .d1 .h1{
+    color: red;
+    font-weight: bold;
+}
+.card1 .text .d1 .h2{
+    color: rgb(43, 50, 50);
+    font-size: 10px;
+    font-weight: bold;
+}
+ .card1 .text .d2{
+    padding:10px 0 0 10px;
+ }
+ .card1 .text .d2 .size{
+    height:30px;
+    width: 43%;
+    display: flex;
+    float: right;
+ }
+ .card1 .text .d2 .size .l1{
+    height: 25px;
+    width: 25px;
+    border: 2px solid rgb(108, 104, 104);
+    margin-left: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size:14px;
+    font-weight: bold;
+    color: rgb(108, 104, 104);
+    border-radius: 50%;
+ }
+.card1 .text .d3{
+    padding: 30px 0 0 10px;
+}
+.card1 .text .d3 span{
+    color: gray;
+    font-size: 14px; 
+}
+.card1 .text .d3 p{
+    float: right;
+    color: rgb(158, 10, 212);
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+
+
+
+.card1 .text-1{
+    margin-top:16px;
+    height: 60px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+}
+.card1 .text-1 .din{
+    width: 60%;
+    background:white;
+    border-top-left-radius:16px;
+    border-bottom-left-radius:16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.card1 .text-1 .din p{
+    font-size: 12px;
+    color: rgb(52, 51, 51);
+    font-weight: bold;
+}
+.card1 .text-1 .din .p1{
+    color: red;
+    font-size: 16px;
+}
+.card1 .text-1 .din1{
+    width: 40%;
+    background:rgb(111, 32, 133);
+    border-top-right-radius:16px;
+    border-bottom-right-radius:16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.card1 .text-1 .din1 p{
+    color: white;   
+}
+
+
+
+@media screen and (max-width:500px){
+    .card1{
+        width: 100%;
+    }
+    .container{
+        padding: 0 100px 0 100px;
+    }
+}

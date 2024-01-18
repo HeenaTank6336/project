@@ -1,0 +1,283 @@
+@media screen and (max-width:500px){
+    /* 1st part start */
+    .header .b{
+        width: 50%;
+        padding-left:10px;
+    }
+    .p1{
+        width: 50%;
+        padding:0 0 0 10px;
+    }
+    /* 1st part close */
+
+
+     /* 2nd part start */
+
+     .album1{
+        height: 70px;
+        width: 100%;
+     }
+     .album2{
+        width: 100%;
+        padding: 0 0 0 20px;
+        font-size:40px;
+     }
+     .fa-bag-shopping{
+        font-size:18px;
+        position: absolute;
+        top:66px;
+        left:226px;
+        color: #07ca7f;     
+    }
+    .iconmain{
+        width: 100%;
+    }
+
+    /* 2nd part close */
+
+    /* 3rd part start */
+    .nav .link ul{
+        display: none;
+    }
+    .nav .link{
+        padding-left: 0px;
+    }
+    .nav .link .fa-bars{
+        display: block;
+        font-size: 20px;
+        float: left;
+        border: 1px solid white;
+        padding: 5px 5px 5px 5px;
+    }
+    /* 3rd part close */
+
+    /* 4th part start */
+    .img{
+        padding: 50px 0 0 0;
+    }
+    .img .text{
+        width: 100%;
+    }
+    .text p:first-child{
+        font-size: 40px;
+    }
+    .text p:nth-child(2){
+        font-size:20px;
+    }
+    .text .a{
+        height: 35px;
+        width:160px;
+        line-height: 35px;
+        margin: 50px 0 0 150px;
+    }
+    /* 4th part close */
+
+    /* 5th part start */
+    .main{
+        gap: 20px;
+        padding: 20px 0 20px 0;
+    }
+    .main .banner1{
+       height: 300px;
+        width: 100%;
+        margin-left:0px;
+        padding: 40px 0 0 30px;
+    }
+    .main .para{
+        font-size: 20px;
+        position: absolute;
+        top: 100px;
+        left:250px;
+    }
+    .main .banner1 .tran{
+        height: 220px;
+        width: 490px;
+        font-size: 17px;
+        padding: 90px 0 0 160px;
+    }
+
+    /* 5th part close */
+
+
+    /* 6th part start */
+    .save .image1,.save .image2{
+        width: 100%;
+    }
+    .save .image2{
+        padding: 20px 20px 20px 20px;
+    }
+    .save .image2 .choco{
+        width:100%
+    }
+    .save .image2 .text1{
+        font-size: 20px;
+    }
+    .save .image2 .choco .home .number1,.save .image2 .choco .home .number2,.save .image2 .choco .home .number3{
+        width: 100%;
+    }
+    /* 6th part close */
+
+
+    /* 7th part start */
+
+    .faster .faster1{
+        width: 100%;
+        margin-left:0px;  
+        padding: 0 20px 0 20px;
+    }
+    .faster .faster1 .khow{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .faster .faster1 .khow1{
+        width: 100%;
+    }
+    .faster .faster1 .khow1 .allow2{
+        height:270px;
+        width:100%;
+        margin-left: 0px;
+        padding: 15px 0 0 20px;
+    }
+    .faster .faster1 .khow1 .allow2 .e{
+        position: absolute;
+        top: 80px;
+        left:250px;
+    }
+    .faster .faster1 .khow1 .allow2 .allow3{
+        height: 200px;
+        width: 100%;
+        font-size: 20px;
+        padding: 100px 0 0 200px;
+    }
+    /* 7th part close */
+
+
+    /* 8th part start */
+    .alex{
+        gap: 20px;
+    }
+    .alex .alex1, .alex .alex2{
+        width: 100%;
+    }
+
+    /* 8th part close */
+
+
+    /* 9th part start */
+    .what{
+        font-size: 44px;
+        padding: 40px 0 0 75px;
+    }
+    /* 9th part close */
+
+    /* 10th part start */
+    .productname .frid1,.productname .frid6{
+        display: none;
+    }
+    .productname{
+        padding: 20px 20px 20px 20px;
+    }
+    .productname .frid2,.productname .frid3,.productname .frid4,.productname .frid5{
+        border: 1px solid rgba(128, 128, 128, 0.658);
+        height: 40px;
+        width: 100%;
+    }
+    .productname .hel{
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    /* 10th part close */
+
+    /* 11th part start */
+    .images .rex{
+        font-size:30px;
+        text-align: center;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+    .images .dis{
+        color: black;
+        text-shadow: 0 0 5px black;
+    }
+    .images .dox{
+        height: 30px;
+        width:160px;
+        line-height: 30px;
+        margin: 50px 0 0 0px;
+        position:absolute;
+        top:200px;
+        left:150px;  
+    }
+    /* 11th part close */
+
+    /* 13th part start */
+    .box .box1, .box .box2, .box .box3, .box .box4{
+        width: 100%;
+        padding-top:20px;
+    }
+    /* 13th part close */
+
+
+    /* 14th part start */
+    .ela .gix .ela1,.ela .gix .ela2,.ela .gix .ela3,.ela .gix .ela4{
+        height: 400px;
+        width: 100%;
+    }
+    .ela .gix .ela1{
+        height: 200px;
+    }
+    .ela .gix .ela2{
+        height: 250px;
+    }
+    .ela .gix .ela3{
+        height: 300px;
+    }
+
+    .ela .hit{
+        margin: 0 0 0 20px;
+    }
+    .ela .hit .wel,.ela .hit .wel1{
+        width: 100%;
+    }
+    .ela .hit .wel{
+        height: 50px;
+        padding: 0 0 0 0;
+        line-height: 50px;
+    }
+    .ela .hit .wel .hj{
+        font-size: 20px;
+    }
+    .ela .hit .wel1{
+        height: 50px;
+      
+    }
+    .ela .hit .cold{
+        margin-top: 10px;
+        height: 30px;
+        width:290px;
+    }
+    .ela .hit .cold1{
+        height: 30px;
+    }
+
+    .ela .hit1{
+        height:100px;
+        background:black;
+        /* padding: 100px; */
+       }
+       .ela .hit1 .hit2{
+        /* text-align: center; */
+        line-height: 50px;
+        color:rgba(211, 211, 211, 0.553);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .ela .hit1 .kj{
+        color: white;
+        font-size:20px;
+       }
+
+
+    /* 14th part close */
+}

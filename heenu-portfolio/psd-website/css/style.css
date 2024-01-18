@@ -1,0 +1,454 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+    
+    background:url(../images/Rectangle.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.main .con,.con1{
+    height: 700px;
+    width: 50%;
+    /* border: 1px solid ; */
+}
+.main .con .logo{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 30px 0 0 35px;
+}
+.main .con .c-name{
+    height: 600px;
+    width: 100%;
+    padding: 100px 0 0 50px;
+}
+.main .con .c-name .p-1{
+    font-size: 24px;
+    color: #3d2514;
+    font-family: Bebas Neue;
+    text-transform: capitalize;
+    width: 65%;
+    border: 2px dashed #3d2514;
+    padding: 2px 3px 2px 10px;
+
+}
+.main .con .c-name .p-2{
+    font-size: 114px;
+    color: #3d2514;
+    text-transform: capitalize;
+    font-family:Alfa Slab One;
+    text-shadow: 0 4px 5px white;
+}
+.main .con .c-name .p-3{
+    font-size: 56px;
+    text-transform: capitalize;
+    color: #3d2514;
+    font-family:Alfa Slab One;
+}
+
+.main .con1 .sct{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid; */
+    position: relative;
+}
+.main .con1 .sct img{
+    position: absolute;
+    top:30px;
+    left:330px;
+}
+.main .con1 .sct .p-4{
+    font-size: 16px;
+    color: #3d2514;
+    font-family: Montserrat;
+    font-weight: bold;
+    position: absolute;
+    top:40px;
+    left:380px;
+}
+.main .con1 .nav{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align:end;
+    line-height: 50px;
+}
+.main .con1 .nav li{
+    display: inline;
+    margin: 0 40px 0 10px;
+}
+.main .con1 .nav li a{
+    text-decoration: none;
+    font-family: Bebas Neue;
+    font-family: 21px;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 2px;
+}
+.main .con1 .images{
+    height:580px;
+    /* border: 2px solid rgb(34, 34, 34); */
+    position: relative;
+}
+.main .con1 .images .img1{
+    position: absolute;
+    left: 160px;
+    bottom:180px;
+
+}
+.main .con1 .images .img2{
+    position: absolute;
+    top:150px;
+    left:90px;
+
+}
+.main .con1 .images .img3{
+    position: absolute;
+    top:90px;
+    left:460px;
+}
+.main .con1 .images .img4{
+    position: absolute;
+    top: 200px;
+    left: 240px;
+}
+.main .con1 .images .img5{
+    position: absolute;
+    top: 490px;
+    left: 110px;
+}
+.main .con1 .images .img6{
+    position: absolute;
+    top: 480px;
+    left:370px;
+}
+.main .con1 .images .img7{
+    position: absolute;
+    top:400px;
+    left:150px;
+}
+.main .con1 .images .img8{
+    position: absolute;
+    top:405px;
+    left:155px;
+}
+.main .con1 .images .img9{
+    position: absolute;
+    top:440px;
+    left:190px;
+}
+
+/* second part */
+
+.main1{
+    /* background: lightblue; */
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main1 .dok1{
+    height:400px;
+    width:48%;
+    background: url(../images/Burger\ Image\ \(1\).png);
+    background-size:100% 100%;
+    margin-right:2%;
+    padding: 25px 0 0 20px;
+}
+.main1 .dok1 .d1,.main1 .dok2 .fd1 .d1,.main1 .dok2 .fd2 .d1{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    font-family: Bebas Neue;
+}
+.main1 .dok1 .d2,.main1 .dok2 .fd1 .d2,.main1 .dok2 .fd2 .d2{
+    font-size:41px;
+    font-weight: bold;
+    color: white;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+}
+
+.main1 .dok2{
+    height:400px;
+    width:48%;
+    /* border: 1px solid; */
+    margin-left:2%;
+}
+.main1 .dok2 .fd1{
+    height: 180px;
+    width: 100%;
+    background: url(../images/Image.png);
+    background-size:100% 100%;
+    padding: 10px 0 0 20px;
+}
+.main1 .dok2 .fd2{
+    height: 180px;
+    width: 100%;
+    background: url(../images/Image\ \(1\).png);
+    background-size:100% 100%;
+    margin-top: 40px;
+    padding: 10px 0 0 20px;
+}
+
+
+/* third part */
+
+.contain{
+    /* height: 240px; */
+    /* background: lightcoral; */
+    padding: 0 30px 30px 30px;
+    text-align: center;
+    position: relative;
+}
+.contain .test{
+    color: #3d2514;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    position: absolute;
+    top:10px;
+    left:585px;
+}
+.contain .test1{
+    color: #3d2514;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: Alfa Slab One;
+    margin-top: 20px;
+}
+.contain .test2{
+    color: #3d2514;
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* fourth part */
+.burg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.burg .burg1,.burg2,.burg3{
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid; */
+   
+}
+.burg .burg1 .b-img1,.burg .burg2 .b-img1,.burg .burg3 .b-img1{
+    height:350px;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 30px 0 0 40px;
+    position: relative;
+}
+.burg .burg1 .b-img1 .shadow,.burg .burg3 .b-img1 .shadow{
+    position: absolute;
+    top:290px;
+    left:30px;
+}
+.burg .burg2 .b-img1 .shadow{
+    position: absolute;
+    top:300px;
+    left: -50px;
+}
+.burg .burg1 .l-text,.burg .burg2 .l-text,.burg .burg3 .l-text{
+    height: 250px;
+    /* background: lightblue; */
+    text-align: center;
+    
+    padding-top: 20px;
+}
+.burg .burg1 .l-text .pl1,.burg .burg2 .l-text .pl1,.burg .burg3 .l-text .pl1{
+    font-size: 38px;
+    color: #3d2514;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family:Bebas Neue;
+}
+.burg .burg1 .l-text .pl2,.burg .burg2 .l-text .pl2,.burg .burg3 .l-text .pl2{
+    font-size: 14px;
+    color: #3d2514;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+.burg .burg1 .l-text .btn,.burg .burg2 .l-text .btn,.burg .burg3 .l-text .btn{
+    background: rgb(242, 51, 51);
+    margin-top: 20px;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family:Bebas Neue;
+    padding: 10px 20px 10px 20px;
+}
+
+/* fifth part start */
+
+.local{
+    box-shadow: 0 10px 20px rgb(46, 46, 46);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 100px 40px 100px;
+}
+.local .txt,.local .images1{
+    height: 400px;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.local .txt{
+    padding: 25px 0 0 25px;
+}
+.local .txt .txt1{
+    color: #3d3d3d;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+}
+.local .txt .txt2{
+    font-size: 42px;
+    font-family:Alfa Slab One ;
+    color: #3d2514;
+}
+.local .txt .txt3{
+    font-size:17px;
+    font-family: Montserrat;
+    color: #3d2514;
+    margin:25px 20px 0 0;
+}
+.local .images1{
+    padding: 25px 0 0 0;
+}
+
+
+/* sixth part */
+
+.btl{
+    padding: 75px 0 150px 0;
+
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.btl .bt1{
+    color: #3d2514;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+}
+.btl .bt2{
+    color: #3d2514;
+    font-family:Alfa Slab One;
+    font-size: 50px;
+}
+.btl form{
+    /* background:coral; */
+    width:100%;
+    padding:40px 0 0 350px;
+}
+
+.btl form .tbl{
+    height:37px;
+    width: 350px;
+    font-family: Bebas Neue;
+    font-size: 18px;
+    color: #3d3d3d;
+    padding: 0 0 0 10px;
+    margin-right: 12px;
+    margin-bottom:12px;
+    border-radius:4px;
+    border:1px solid #7b7b7b;
+    outline-style: none;
+}
+.btl form .btnn{
+  background: rgb(242, 51, 51);
+  color: white;
+  border: none;
+  font-size: 22px;
+  font-family: Bebas Neue;
+  letter-spacing: 1px;
+}
+.btl .jpg1{
+    position:absolute;
+     top: -30px;
+    left:-70px;
+}
+.btl .jpg2{
+    position:absolute;
+    top:180px;
+    left:150px;
+}
+.btl .jpg3{
+    position: absolute;
+    top:200px;
+    left:82%;
+}
+
+
+/* seventh part */
+
+.last{
+    position: relative;
+    padding: 0 30px 30px 30px;
+    background: transparent;
+}
+.last .la1{
+    position: absolute;
+    top:30px;
+    left:60px;
+}
+.last .la2{
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    position: absolute;
+    top:150px;
+    left:60px;
+}
+.last .la3{
+    color: white;
+    font-size: 17px;
+    font-family: Bebas Neue;
+    position: absolute;
+    top:300px;
+    left:60px;
+}
+.last .la4{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+    position: absolute;
+    right:120px;
+    bottom:230px;
+}
+.last .la5{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 200px;
+    bottom:200px;
+
+}
+.last .la6{
+    height:40px;
+    width:200px;
+    font-size:25px;
+    padding: 10px 0 0 25px;
+    /* background: lightcoral; */
+    position: absolute;
+    bottom:40px;
+    right: 0;
+}

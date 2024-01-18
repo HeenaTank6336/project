@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navbar-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Belanosima&family=Clicker+Script&family=Cookie&family=Montserrat&family=Nosifer&family=Open+Sans&family=Poppins:wght@200;300;500&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <img src="logo-img-removebg-preview.png" alt="" height="100px" width="200px">
+        <div class="main-menu">
+            <span class="menuBtn" onclick="openMenu()">&#9776</span>
+            <span class="closeBtn" onclick="closeMenu()">&#9746</span>
+            <ul id="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Agency</a></li>
+                <li><a href="">Teams</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Showcase</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+                <li><button>Book a consultation</button></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        let x=document.getElementById('menu');
+        let menuBtn = document.querySelector('.menuBtn');
+        let closeBtn = document.querySelector('.closeBtn');
+
+        function openMenu(){
+            x.style.display='block';
+            menuBtn.style.display='none';
+            closeBtn.style.display='block';
+        }
+        function closeMenu(){
+            x.style.display='none';
+            menuBtn.style.display='block';
+            closeBtn.style.display='none';
+        }
+
+    </script>
+</body>
+</html>

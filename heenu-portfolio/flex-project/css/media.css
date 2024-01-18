@@ -1,0 +1,249 @@
+@media only screen and (max-width:500px){
+  .main{
+    height:600px;
+    background-size:100% 90%;
+  }
+    .main .main1{
+      display: none;
+    }
+    .main .nav{
+      height:70px;
+      width: 100%;
+      background: white;
+      padding:10px 0 0 0px;
+      position: relative;
+    }
+    .main .nav ul li{
+      display: none;
+    }
+    .main .nav img{
+      display: none;
+      margin: 20px 0 0 20px;
+    }
+    .main .nav .logo1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      display:block;
+   }
+   .main .nav p{
+    display: none;
+   }
+   .main .nav .fa-bars{
+    color: black;
+    font-size: 20px;
+    float: right;
+    margin: 20px 40px 0 0;
+   }
+
+
+
+   .main .face{
+    width: 400px;
+    margin: 50px 0 0 20px;
+   }
+   .main .face h1{
+    font-size: 50px;
+   }
+
+   .main .input{
+      position: absolute;
+      top:404px;
+      left: 0;
+      padding: 10px 50px 10px  50px;
+   }
+   .main .input .input1{
+    width: 100%;
+   }
+   .main .input .input1 .in1{
+    height:20px;
+    width: 80%;
+    margin-top: 10px;
+   }
+   .main .input .input1 button{
+    width: 80%;
+    margin-top: 30px;
+   }
+
+
+
+   /* second part start */
+   .polish{
+    padding:30px 0 30px 0px;
+   }
+   .polish .nailtext{
+    width: 100%;
+    padding:30px 0 0 50px;
+   }
+   
+   
+
+   /* 3rd part start */
+   .nailpolish{
+    padding: 30px 100px 60px 100px;
+   }
+   .nailpolish .np{
+    width: 100%;
+   }
+   .nailpolish .np1{
+    width: 100%;
+   }
+   .nailpolish .np1 .images .dot1, .nailpolish .np1 .images1 .dot2, .nailpolish .np1 .images2 .dot3, .nailpolish .np1 .images3 .dot4{
+    position: absolute;
+    left:-100px;
+    bottom:-5px; 
+ }
+
+
+ /* 4th part start */
+ .container .content1{
+  display: none;
+ }
+ .container .content2{
+  height: 1000px;
+  width: 100%;
+ }
+ .container .content2 .con1{
+  height:410px;
+  width: 400px;
+  position: absolute;
+   top:50px;
+   left:30px;
+ }
+ .container .content2 .con2{
+  height: 302px;
+  width: 400px;
+  position: absolute;
+  top:300px;
+  left:20px;
+ }
+ .container .content2 .con3{
+  height:400px;
+   width:420px;
+   /* background: lightseagreen; */
+  position: absolute;
+  top:600px;
+  left:0px;
+  padding:50px 0 0 10px;
+ }
+ .container .content2 .con3 .ket2 h2,.ket3 h3,.ket4 h3{
+  font-size: 35px;
+  letter-spacing: 0px;
+ }
+ .container .content2 .con3 .ket2 .sin1,.ket3 .sin1,.ket4 .sin1{
+  font-size: 12px;
+  letter-spacing: 1px;
+ }
+ .container .content2 .con3 .ket2, .container .content2 .con3 .ket3, .container .content2 .con3 .ket4{
+  width: 400px;
+ }
+
+ /* 5th part start */
+ .mains{
+  padding:50px 0 50px 0px;
+ }
+
+ .mains .mains1 .hex{
+  width: 100%;
+  padding: 0 0 0 20px;
+ }
+
+
+ /* 7th part start */
+
+ .port{
+  margin-left: 0px;
+  width: 100%;
+ }
+ .verticle{
+  padding: 50px 0 0 20px;
+ }
+ .verticle1{
+  width: 100%;
+ }
+ .verticle .verticle1 .gellery{
+  width: 100%;
+ }
+
+
+ /* 8th part start */
+ .flag .flag1{
+  padding: 3px 0 0 0;
+ }
+ .flag .flag1 .art{
+  width: 100%;
+ }
+ .flag .flag1 .art h2{
+  font-size: 30px;
+ }
+ .flag .flag2{
+  padding:0 100px 0 100px;
+  margin-top: 0px;
+ }
+
+ .flag .flag2 .lite1{
+  width: 50%;
+  padding: 20px 0 0 40px;
+  overflow: hidden;
+ }
+ .flag .flag3{
+  margin: 100px 0 0 0px;
+  padding-left:150px;
+ }
+
+ /* 9th part start */
+
+ .twopart .firstpart,.secondpart{
+  width: 100%;
+ }
+ .twopart .firstpart .hit{
+  height: 400px;
+  width:435px;
+  /* background: lightblue; */
+  margin-left:0px;
+  padding:0px 0 0 10px;
+ }
+ .twopart .secondpart img{
+  height:470px;
+  width: 400px;
+  margin: 0 0 0 20px;
+ }
+ .twopart .firstpart .hit .hit1{
+  width: 420px;
+ }
+ .twopart .firstpart .hit .hit2{
+  width: 420px;
+ }
+ .twopart .firstpart .hit .hit2 .local{
+  width: 420px;
+ }
+ .twopart .firstpart .hit .hit2 .local .ads,.xyz,.abc{
+  width: 420px;
+ }
+ .twopart .firstpart .hit .hit2 .local .ads .local3 span{
+  font-size: 18px;
+ }
+
+ /* 10th part start */
+ .bit{
+  padding: 30px 20px 0px 20px;
+  /* background: lightblue; */
+}
+ .bit .bit1 .bitten1{
+  width: 100%;
+  padding:0px 0 0 0px;
+ }
+ .bit .bit1 .bitten1 img,.bit .bit1 .bitten1 .hel{
+  width:400px;
+ }
+ .bit .bit1 .bitten1 .hel{
+  padding-top: 0px;
+ }
+
+ /* last part */
+
+ .last .last1{
+  width: 100%;
+  text-align: center;
+ }
+}

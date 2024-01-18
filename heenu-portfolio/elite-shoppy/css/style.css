@@ -1,0 +1,209 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background: cornflowerblue;
+    display: flex;
+    position:fixed;
+    z-index: 1;
+}
+.header .logo{
+    height: 100px;
+    width: 20%;
+    background: goldenrod;
+}
+.header .cname{
+    height:100px;
+    width:80%;
+    background: rebeccapurple;
+}
+.nav{
+    height:55px;
+    background: coral;
+    position: fixed;
+    top:100px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+.nav{
+    background: black;
+    text-align: center;
+    padding: 25px 0;
+}
+ul 
+{
+    margin: 0;
+    padding: 0;
+}
+li 
+{
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+li::after{
+    content: "";
+
+    height: 5px;
+    width: 0px;
+    background: cyan;
+    position: absolute;
+    top:40px;
+    left:0;
+    transition: 1s;
+}
+li:hover::after{
+    width: 100%;
+}
+
+.slider{
+    height:500px;
+    background: darkolivegreen;
+
+}
+.content{
+    height: 400px;
+    background: salmon;
+    display: flex;
+}
+
+
+.content .p1{
+    height: 400px;
+    width: 25%;
+    background: darkorchid;
+    border: 1px solid;
+}
+.content .p1 .section{
+    height: 25% ;
+    background: sandybrown;
+    border: 1px solid;
+}
+
+.content .card{
+    height:350px;
+    width:220px;
+    background:white;
+    position:relative;
+    box-shadow: 0 0 10px black;
+   transform: translate(50px,-80px);
+}
+    .prd-img{
+        height: 250px;
+        width:220px;
+        cursor: pointer;
+    }
+
+.main{
+    height: 250px;
+    width:220px;
+    /* background:coral; */
+    margin: 100px auto;
+    position:relative;
+
+}
+.front{
+    height:250px;
+    width:220px;
+    background: forestgreen;
+    position: absolute;
+    top:0;
+    left:0;
+    transform:rotateY(180deg);
+    transition: 1.5s;
+    backface-visibility: hidden;
+}
+.main:hover .front{
+    transform:rotateY(0deg);
+}
+.back{
+    height: 250px;
+    width:220px;
+    position: absolute;
+    top:0;
+    left:0;
+    transform:rotateY(0deg);
+    backface-visibility: hidden;
+    transition:1.5s;
+}
+.main:hover .back{
+    transform:rotateY(180deg);
+}
+.prd-view{
+        height:50px;
+        width: 220px;
+        background:rgb(6, 6, 5);
+        color:white;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        position: absolute;
+        top:0px;
+        left:0px;
+        opacity:0;
+        text-transform: uppercase;
+        transition: 1s;
+    }
+    .card:hover .prd-view{
+            top:200px;
+            opacity: 1;        
+    }
+    .prd-view:hover{
+        background:rgb(37, 241, 248) ;
+    }
+    .prd-info{
+        height: 150px;
+        width: 220px;
+    }
+    button{
+        margin: 10px 30px;
+        height:30px;
+        width:160px;
+        background: rgb(37, 241, 248);
+        border: rgb(37, 241, 248);
+        font-weight: bold;
+        color: aliceblue;
+        font-size:15px;
+        outline: 3px solid rgb(37, 241, 248) ;
+        transition: 1s;
+        cursor: pointer;
+        
+        
+    }
+    button:hover{
+        outline: 3px solid rgb(37, 241, 248);
+        outline-offset: 5px;
+    }
+    
+    .content .abc{
+        background: url(../images/sorasak-KxCJXXGsv9I-unsplash.jpg);
+        background-size: 100% 100%;
+ 
+ }
+    
+
+
+
+.footer{
+    height: 250px;
+    background: darkkhaki;
+}
+.btn{
+    height:50px;
+    width:100px;
+    background: rgb(136, 248, 248);
+    position: fixed;
+    bottom:10%;
+    right:5%;
+    color: black;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}

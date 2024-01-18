@@ -1,0 +1,195 @@
+@media screen and (max-width:500px){
+    .main .con,.con1{
+        width: 100%;
+    }
+    .main .con .logo{
+        height:60px;
+        width: 100%;
+        padding: 40px 0 0 20px;
+    }
+    .main .con .c-name{
+        padding: 100px 0 0 20px;
+    }
+    .main .con .c-name .p-1{
+        font-size:18px;
+    }
+    .main .con .c-name .p-2{
+        font-size: 90px;
+    }
+    .main .con .c-name .p-3{
+        font-size: 50px;
+    }
+    .main .con1 .sct img{
+        position: absolute;
+        top:20px;
+        left:90px;
+    }
+    .main .con1 .sct .p-4{
+        position: absolute;
+        top:30px;
+        left:150px;
+    }
+    .main .con1 .nav li{
+        margin: 0 30px 0 10px;
+    }
+    .main .con1 .images .img1{
+        position: absolute;
+        left: 0px;
+        bottom:180px;
+    
+    }
+    .main .con1 .images .img2{
+        position: absolute;
+        top:150px;
+        left:-10px;
+    
+    }
+    .main .con1 .images .img3{
+        position: absolute;
+        top:90px;
+        left:300px;
+    }
+    .main .con1 .images .img4{
+        position: absolute;
+        top: 200px;
+        left: 130px;
+    }
+    .main .con1 .images .img5{
+        width: 40%;
+        position: absolute;
+        top: 490px;
+        left:280px;
+    }
+    .main .con1 .images .img6{
+        width: 40%;
+        position: absolute;
+        top: 480px;
+        left:220px;
+    }
+    .main .con1 .images .img7{
+        position: absolute;
+        top:400px;
+        left:90px;
+    }
+    .main .con1 .images .img8{
+        position: absolute;
+        top:405px;
+        left:95px;
+    }
+    .main .con1 .images .img9{
+        position: absolute;
+        top:440px;
+        left:130px;
+    }
+    .main1 .dok1{
+        width: 100%;
+    }
+    .main1 .dok2{
+        width: 100%;
+        margin-top: 20px;
+        margin-left:0%;
+    }
+    
+    .main1 .dok2 .fd1,.main1 .dok2 .fd2{
+        padding: 10px 0 0 0px;
+    }
+
+    /* third part */
+
+    .contain .test{
+        position: absolute;
+        top:10px;
+        left:150px;
+    }
+
+    /* fourth part start */
+    .burg .burg1,.burg2,.burg3{
+        width: 100%;
+    }
+    .burg .burg2 .b-img1 .shadow{
+        width: 95%;
+    }
+
+    /* fifth part start */
+
+    .local{
+        margin: 0 0px 0px 0px;
+    }
+    .local .txt{
+        height:300px;
+        padding: 25px 0 0 0px;
+    }
+    .local .txt,.local .images1{
+        width: 100%;
+    }
+    .local .txt .txt3{
+        margin:25px 0px 0 0;
+    }
+    .local .images1 img{
+        width: 100%;
+    }
+
+
+    /* sixth ::part */
+
+    .btl{
+        text-align:center;
+        padding: 75px 0 50px 0;
+    }
+    .btl .bt1{
+        font-size: 24px;
+    }
+    .btl .bt2{
+        font-size: 35px;
+    }
+    .btl form{
+        padding:40px 0 0 50px;
+    }
+    .btl form .tbl1{
+       width: 50%;
+    }
+    .btl form .tbl{
+        width: 100%;
+    }
+    .btl .jpg1,.btl .jpg2,.btl .jpg3{
+        display: none;
+    }
+
+    /* seventh part */
+
+    .last{
+        padding: 0 0px 0px 0px;
+    }
+    .last .la1{
+        position: absolute;
+        top:10px;
+        left:10px;
+    }
+    .last .la2{
+        font-size:14px;
+        font-family: Montserrat;
+        position: absolute;
+        top:100px;
+        left:10px;
+    }
+    .last .la3{
+        position: absolute;
+        top:300px;
+        left:10px;
+    }
+    .last .la4{
+        position: absolute;
+       left: 10px;
+        bottom:160px;
+    }
+    .last .la5{
+        position: absolute;
+        left: 10px;
+        bottom:120px;
+    }
+    .last .la6{
+        position: absolute;
+        bottom:10px;
+        right: 0;
+    }
+}

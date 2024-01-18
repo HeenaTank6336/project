@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background:white;
+    padding:0 40px 0 40px;
+    box-shadow:0px 0px 10px black;
+}
+nav img{
+    float: left;
+    height: 100px;
+    width: 200px;
+}
+nav ul{
+    float:right;
+    cursor: pointer;
+}
+nav li{
+    display: inline;
+    margin-right:30px;
+   line-height:100px;
+   position: relative;
+}
+nav li::after{
+    content: "";
+    height: 3px;
+    width:0;
+    background:rgb(26, 156, 249);
+    position: absolute;
+    bottom:330%;
+    left: 0;
+    transition:all ease 0.5s;
+    border-radius: 16px;
+}
+nav li:hover::after{
+    width: 100%;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+nav li button{
+    height:35px;
+    width: 150px;
+    background: rgb(26, 156, 249);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+}
+nav .icon-menu{
+    position: absolute;
+    right:15px;
+    top:30px;
+    display:inline-block;
+    padding:4px;
+    border: 1px solid black;
+    display: none;
+}
+nav .icon-menu .menu-1,.menu-2,.menu-3{
+    height:5px;
+    width:30px;
+    background: black;
+    border-radius: 16px;
+    margin-top:5px;
+}
+
+@media screen and (max-width:600px){
+    nav .icon-menu{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        display: none;
+        padding: 20px 0 30px 0;
+        box-shadow: 0 0 5px rgb(187, 181, 181);
+        /* background: lightgreen; */
+        margin-top:0px;
+        /* float: left; */
+    }
+    nav ul li{
+        display: block;
+        margin-right: 0px;
+        line-height:30px;
+        text-align: center;
+        position: relative;
+    } 
+    nav li::after{
+        content: "";
+        height: 3px;
+        width: 0;
+        background: #307e98;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transition: all ease 1s;
+    }
+    nav li:hover::after{
+        width:0;
+    }
+}
